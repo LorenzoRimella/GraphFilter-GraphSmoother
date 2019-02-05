@@ -11,6 +11,10 @@ In this repository you can find the following Python files:
 
 - GharamaniJordan.py: our code for the optimal forward-backward algorithm for FHMM by Ghahramani and Jordan;
 
-- GJsubroutine.py: the forward-backward algorithm used in the partially decoupled variational Bayes algorithm (Ghahramani and Jordan)
+- GJsubroutine.py: the forward-backward algorithm used in the partially decoupled variational Bayes algorithm (Ghahramani and Jordan);
 
-- VBayes.py: contains functions for the completely and partially decoupled variational Bayes algorithms.
+- VBayes.py: contains functions for the completely and partially decoupled variational Bayes algorithms;
+
+- EM1.py: it is an example on how to use the Graph Filter-Smoother in the EM algorihtm, running EM1.py gives a .pkl file as output containing the results for a synthetic dataset (simulated in the same file) of the EM algorithm where we used different initial conditions;
+
+
