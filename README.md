@@ -7,7 +7,7 @@ In this repository you can find the following Python files:
 
 - Probabilities_Forecasting_HMM.py: contains some functions to forecast the states given the probabilities vectors;
 
-- EMalgorithmtoy.py: function for the EM algorithm with Graph Smoother in the chain case ($M$-dimensional hidden variable and $M-1$ factors);
+- EMalgorithmtoy.py: function for the EM algorithm with Graph Smoother in the chain case (M-dimensional hidden variable and M-1 factors);
 
 - GharamaniJordan.py: our code for the optimal forward-backward algorithm for FHMM by Ghahramani and Jordan;
 
