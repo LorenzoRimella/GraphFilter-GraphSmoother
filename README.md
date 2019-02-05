@@ -17,4 +17,8 @@ In this repository you can find the following Python files:
 
 - EM1.py: it is an example on how to use the Graph Filter-Smoother in the EM algorihtm, running EM1.py gives a .pkl file as output containing the results for a synthetic dataset (simulated in the same file) of the EM algorithm where we used different initial conditions;
 
+- london.py: it is our application to the London's tube, the first part of the code is the cleaning procedure, where we adjust the dataset according to our aim, the second part is an EM algorithm with different initial conditions. We strongly reccomend to reduce the number of initial conditions if you are not interested in a long simulation. Remark that for this file we need the file 'Nov09JnyExport.csv' which can be downloaded at https://api-portal.tfl.gov.uk/docs under the section: Oyster card data. 
 
+There is also a supplementary file:
+
+- London2.pickle: this is just a .pkl file where the graph structure of London's tube is stored.
