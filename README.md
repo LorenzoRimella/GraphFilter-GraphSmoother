@@ -26,6 +26,3 @@ There is also a supplementary file:
 
 # Oyster data: Cleaning procedure 
 The Oyster dataset was about the movement that people made from one station to another, and so where a person starts her/his journey and where the same person finished it. In this dataset were included useless and redundant information that we have excluded from the analysis (e.g. information on the fare, time stored in different formats). The data displayed also different modes of transport, but for sake of simplicity we have decided to drop them and focus on tube's travel. The final object of our analysis was the count of passengers entering minus count of passengers exiting each station in the t-th time window of length 10 minutes during the hours of 4.40am to 11pm, on each of the days Monday-Friday. On each day, two further data points associated with each station count the total net inflow during the quiet periods 12 midnight to 4.40am and 11pm to 12 midnight.
-
-
-by counting the number of people entering (positive flow) or exiting (negative flow) a specific station in a specific interval. Remark that the intervals have an equal length of 10 minutes rather than the first and the last one, which are respectively 00:00-04:40 and 23:00-00:00. This different choice ensured a fair amount of data also at night time.
