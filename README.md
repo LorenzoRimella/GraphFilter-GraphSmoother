@@ -8,3 +8,5 @@ The two versions of the algorithm are reported in two different folders.
 - version 2: it is the most recent version of the algorithm, this includes a more general version of the algorithm, applicable to any Networkx factor graph, and a Cython implementation for speed.
 
 Remark that version 2 is used only in the London's tube experiment.
+
+In addition this repository contains an online appendix which displays all the proofs of the theoretical results and provides additinal information about the work.
